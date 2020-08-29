@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="game">
+        <div class="score fadeout">
+            <div class="player_score">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computer_score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+        <div class="match fadeout">
+            <div class="winner">Choose a Hand</div>
+            <h1 class="result"></h1>
+            <div class="hands">
+                <img src="rock.png" alt="" class="playerhand">
+                <img src="rock.png" alt="" class="computerhand">
+            </div>
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissor">scissors</button>
+            </div>
+            
+        </div>
+        <div class="intro">
+            <h1>Rock Paper Scissors</h1>
+            <div class="instructions">
+                <h2>=> Instructions</h2>
+                <ul>
+                    <li>After clicking on the button below click on one of the three buttons to play</li><br>
+                    <li>You can see your scor on the top left of the screen</li><br>
+                    <li>The one who reaches score 10 first will be the winner</li><br><br>  
+                </ul>
+            </div>
+            <button class="begin">Let's Go</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
